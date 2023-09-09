@@ -34,4 +34,5 @@ int main()
   guardarInfo();
   cout << nUsuario << " adquirio " << nProducto << " por el precio de " << precio << ", con garantia de " << garantia << " años.\n";
   // Impresión de dichos datos
+  cout << endl;
 }

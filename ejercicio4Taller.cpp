@@ -35,4 +35,5 @@ int main(){
   cin >> nParticipacion;
   nParticipacion = comprobarNota(nParticipacion);
   cout << "La nota final es: " << calcularNota(nPractica, nTeorica, nParticipacion ) << "\n"; 
+  cout << endl;
 } 

@@ -8,7 +8,7 @@ Correo: gomez.jhorman@correounivalle.edu.co
 
 Fecha creación: 05/09/2023
 
-Fecha última modificación: 08/09/23
+Fecha última modificación: 09/09/23
 */
 
 string nombre, apellido, nit, cargo; //Variables.
@@ -35,5 +35,6 @@ int main() {
   cin >> numeroEmpleados;
   guardarInfo(numeroEmpleados);
   cout << nombre << " " << apellido << ", identificada con el numero de identidad " << nit << ", en el puesto de " << cargo << " recibe un pago mensual de " << salario << "\n"; //Se imprime la información registrada.
+  cout << endl;
   
 }
