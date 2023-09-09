@@ -6,9 +6,9 @@ Autor: Jhorman Mauricio Gomez Alarcon
 
 Correo: gomez.jhorman@correounivalle.edu.co
 
-Fecha creación: 
+Fecha creación: 05/09/2023
 
-Fecha última modificación: 8/09/23
+Fecha última modificación: 08/09/23
 */
 
 string nombre, apellido, nit, cargo; //Variables.
@@ -34,6 +34,6 @@ int main() {
   cout << "Ingrese cantidad de empleados: "; //Se pide cant de empleados.
   cin >> numeroEmpleados;
   guardarInfo(numeroEmpleados);
-  cout << nombre << " " << apellido << ", identificada con el numero de identidad " << nit << ", en el puesto de " << cargo << " recibe un pago mensual de " << salario; //Se imprime la información registrada.
+  cout << nombre << " " << apellido << ", identificada con el numero de identidad " << nit << ", en el puesto de " << cargo << " recibe un pago mensual de " << salario << "\n"; //Se imprime la información registrada.
   
 }

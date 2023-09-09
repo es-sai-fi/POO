@@ -7,9 +7,9 @@ Autor: Jhorman Mauricio Gomez Alarcon
 
 Correo: gomez.jhorman@correounivalle.edu.co
 
-Fecha creación: 
+Fecha creación: 05/09/2023
 
-Fecha última modificación: 8/09/23
+Fecha última modificación: 09/09/23
 */
 
 float nPractica, nTeorica, nParticipacion, nPonderada, nCurso; //Variables.
@@ -38,7 +38,7 @@ int main(){
   cin >> cEstudiantes;
  vector <float> nPonderadas(cEstudiantes); //Ciclo for que se ejecuta tantas veces como estudiantes haya para tomar sus datos y almacenarlos.
   for(int i=0; i<cEstudiantes; i++){
-    cout << "Digite la nota practica del estudiante " << i+1 << ": ";
+    cout << "Digite la nota de practica del estudiante " << i+1 << ": ";
     cin >> nPractica;
     nPractica = comprobarNota(nPractica);
     cout << "Digite la nota teorica del estudiante " << i+1 << ": ";

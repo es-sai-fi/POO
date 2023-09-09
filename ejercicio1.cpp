@@ -6,9 +6,9 @@ Autor: Jhorman Mauricio Gomez Alarcon
 
 Correo: gomez.jhorman@correounivalle.edu.co
 
-Fecha creación: 
+Fecha creación: 05/09/2023
 
-Fecha última modificación: 8/09/23
+Fecha última modificación: 08/09/23
 */
 
 int tablasDeMultiplicar(int i, int j){ //Función que toma i, j y en base a ellas muestra la tabla de dicho número.
